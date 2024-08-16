@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link";
 import React, { useState } from "react";
 export default function Navbar() {
     const [show, setShow] = useState(false);
@@ -20,13 +21,19 @@ export default function Navbar() {
                                         />
                                     </g>
                                 </svg>
-                                <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">The North</h3>
+                                <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">Secure AI and Blockchain</h3>
                             </div>
                             <ul className="pr-12 xl:flex items-center h-full hidden">
-                                <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal border-b-2 border-white">Dashboard</li>
-                                <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mx-10 tracking-normal">Products</li>
-                                <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white mr-10 tracking-normal">Performance</li>
-                                <li className="cursor-pointer h-full flex items-center hover:text-indigo-700 text-sm text-white tracking-normal">Deliverables</li>
+                                <Link href={'/'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white tracking-normal hover:border-b-2 active:border-white">Home</li></Link>
+                                <Link href={'/problem'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mx-10 tracking-normal hover:border-b-2 active:border-white">Problem</li></Link>
+                                <Link href={'/solution'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">Solution</li></Link>
+                                <Link href={'/technology'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">Technology</li></Link>
+                                {/* Implementation */}
+                                
+                                <Link href={'/implementation'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">Implementation</li></Link>
+                                <Link href={'/benefits'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">Benefits</li></Link>
+
+
                             </ul>
                         </div>
                         <div className="h-full xl:flex items-center justify-end hidden">
@@ -83,7 +90,7 @@ export default function Navbar() {
                                                 </li>
                                             </ul>
                                         )}
-                                        <img className="rounded h-10 w-10 object-cover" src="https://tuk-cdn.s3.amazonaws.com/assets/components/horizontal_navigation/hn_1.png" alt="logo" />
+                                        <img className="rounded h-10 w-10 object-cover" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="logo" />
                                         <p className="text-white text-sm ml-2">Jane Doe</p>
                                     </div>
                                 </div>
@@ -93,26 +100,33 @@ export default function Navbar() {
                             <ul className="p-2 border-r bg-white absolute rounded top-0 left-0 right-0 shadow mt-16 md:mt-16 hidden">
                                 <li className="flex md:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
                                     <div className="flex items-center">
-                                        <span className="ml-2 font-bold">Dashboard</span>
+                                        <span className="ml-2 font-bold">Home</span>
                                     </div>
                                 </li>
                                 <li className="flex md:hidden flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center">
                                     <div className="flex items-center">
-                                        <span className="ml-2 font-bold">Products</span>
+                                        <span className="ml-2 font-bold">Problem</span>
                                     </div>
                                 </li>
                                 <li className="flex md:hidden flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center">
                                     <div className="flex items-center">
-                                        <span className="ml-2 font-bold">Performance</span>
+                                        <span className="ml-2 font-bold">Solution</span>
                                     </div>
                                 </li>
                                 <li className="border-b border-gray-300 flex md:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
-                                    <span className="ml-2 font-bold">Deliverables</span>
+                                    <span className="ml-2 font-bold">Technology</span>
+                                </li>
+                                {/* Implementation */}
+                                <li className="border-b border-gray-300 flex md:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
+                                    <span className="ml-2 font-bold">Implementation</span>
+                                </li>
+                                <li className="border-b border-gray-300 flex md:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
+                                    <span className="ml-2 font-bold">Benefits</span>
                                 </li>
                                 <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
                                     <div className="flex items-center">
                                         <div className="w-12 cursor-pointer flex text-sm border-2 border-transparent rounded focus:outline-none focus:border-white transition duration-150 ease-in-out">
-                                            <img className="rounded h-10 w-10 object-cover" src="https://tuk-cdn.s3.amazonaws.com/assets/components/horizontal_navigation/hn_1.png" alt="logo" />
+                                            <img className="rounded h-10 w-10 object-cover" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="logo" />
                                         </div>
                                         <p className="text-sm ml-2 cursor-pointer">Jane Doe</p>
                                         <div className="sm:ml-2 text-white relative">
@@ -191,7 +205,7 @@ export default function Navbar() {
                                                             fill="#667EEA"
                                                         />
                                                     </svg>
-                                                    <p className="text-base  text-white ml-3">The North</p>
+                                                    <p className="text-base  text-white ml-3">Secure AI and Blockchain</p>
                                                 </div>
                                                 <div id="cross" className="text-white" onClick={() => setShow(!show)}>
                                                     <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-x" width={24} height={24} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -215,7 +229,7 @@ export default function Navbar() {
                                                                 <rect x={14} y={14} width={6} height={6} rx={1} />
                                                             </svg>
                                                         </div>
-                                                        <p className="text-indigo-700 xl:text-base text-base ml-3">Dashboard</p>
+                                                        <p className="text-indigo-700 xl:text-base text-base ml-3">Home</p>
                                                     </div>
                                                 </li>
                                             </a>
@@ -229,7 +243,7 @@ export default function Navbar() {
                                                                     <path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" />
                                                                 </svg>
                                                             </div>
-                                                            <p className="text-white xl:text-base  text-base ml-3">Products</p>
+                                                            <p className="text-white xl:text-base  text-base ml-3">Problem</p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -244,7 +258,7 @@ export default function Navbar() {
                                                                 <circle cx={12} cy={12} r={9} />
                                                             </svg>
                                                         </div>
-                                                        <p className="text-white xl:text-base  text-base ml-3">Performance</p>
+                                                        <p className="text-white xl:text-base  text-base ml-3">Solution</p>
                                                     </div>
                                                 </li>
                                             </a>
@@ -259,7 +273,37 @@ export default function Navbar() {
                                                                 <line x1={14} y1={4} x2={10} y2={20} />
                                                             </svg>
                                                         </div>
-                                                        <p className="text-white xl:text-base  text-base ml-3">Deliverables</p>
+                                                        <p className="text-white xl:text-base  text-base ml-3">Technology</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li className="text-white pt-8 cursor-pointer">
+                                                <div className="flex items-center justify-between">
+                                                    <div className="flex items-center">
+                                                        <div className="w-6 h-6 md:w-8 md:h-8 text-white">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-code" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                                <polyline points="7 8 3 12 7 16" />
+                                                                <polyline points="17 8 21 12 17 16" />
+                                                                <line x1={14} y1={4} x2={10} y2={20} />
+                                                            </svg>
+                                                        </div>
+                                                        <p className="text-white xl:text-base  text-base ml-3">Implementation</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li className="text-white pt-8 cursor-pointer">
+                                                <div className="flex items-center justify-between">
+                                                    <div className="flex items-center">
+                                                        <div className="w-6 h-6 md:w-8 md:h-8 text-white">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-code" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                                <polyline points="7 8 3 12 7 16" />
+                                                                <polyline points="17 8 21 12 17 16" />
+                                                                <line x1={14} y1={4} x2={10} y2={20} />
+                                                            </svg>
+                                                        </div>
+                                                        <p className="text-white xl:text-base  text-base ml-3">Benefits</p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -281,7 +325,7 @@ export default function Navbar() {
                                         <div className="border-t border-gray-700">
                                             <div className="w-full flex items-center justify-between pt-1">
                                                 <div className="flex items-center">
-                                                    <img alt="profile-pic" src="https://tuk-cdn.s3.amazonaws.com/assets/components/boxed_layout/bl_1.png" className="w-8 h-8 rounded-md" />
+                                                    <img alt="profile-pic" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" className="w-8 h-8 rounded-md" />
                                                     <p className=" text-white text-base leading-4 ml-2">Jane Doe</p>
                                                 </div>
                                                 <ul className="flex">
