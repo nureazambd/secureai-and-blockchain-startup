@@ -59,7 +59,7 @@ export default function Navbar() {
                                         </svg>
                                     </div>
                                     <div className="w-full flex items-center justify-end relative cursor-pointer" onClick={() => setProfile(!profile)}>
-                                        {profile && (
+                                        {/* {profile && (
                                             <ul className="p-2 w-40 border-r bg-white absolute rounded left-0 shadow mt-16 top-0 ">
                                                 <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
                                                     <div className="flex items-center">
@@ -89,7 +89,7 @@ export default function Navbar() {
                                                     <span className="ml-2">Account Settings</span>
                                                 </li>
                                             </ul>
-                                        )}
+                                        )} */}
                                         <img className="rounded h-10 w-10 object-cover" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="logo" />
                                         <p className="text-white text-sm ml-2">Jane Doe</p>
                                     </div>
