@@ -24,7 +24,20 @@ export default function Navbar() {
                                 <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">Secure AI and Blockchain</h3>
                             </div>
                             <ul className="pr-12 xl:flex items-center h-full hidden">
-                                <Link href={'/'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white tracking-normal hover:border-b-2 active:border-white">Home</li></Link>
+                                <Link href={'/'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white tracking-normal hover:border-b-2 active:border-white">
+                                <div className="flex items-center">
+                                                        <div className="w-6 h-6 md:w-8 md:h-8 ">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-grid" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                                <rect x={4} y={4} width={6} height={6} rx={1} />
+                                                                <rect x={14} y={4} width={6} height={6} rx={1} />
+                                                                <rect x={4} y={14} width={6} height={6} rx={1} />
+                                                                <rect x={14} y={14} width={6} height={6} rx={1} />
+                                                            </svg>
+                                                        </div>
+                                                        <p className=" xl:text-base text-base ml-3">Home</p>
+                                                    </div>
+                                    </li></Link>
                                 <Link href={'/problem'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mx-10 tracking-normal hover:border-b-2 active:border-white">Problem</li></Link>
                                 <Link href={'/solution'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">Solution</li></Link>
                                 <Link href={'/technology'}><li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">Technology</li></Link>
@@ -218,7 +231,7 @@ export default function Navbar() {
                                         </div>
                                         <ul className="f-m-m">
                                             <Link href={'/'} className="cursor-pointer">
-                                                <li className="text-white pt-10">
+                                                <li className="text-white pt-10" onClick={() => setShow(!show)}>
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-indigo-700">
                                                             <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-grid" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -234,7 +247,7 @@ export default function Navbar() {
                                                 </li>
                                             </Link>
                                             <Link href={'/problem'} className="cursor-pointer">
-                                                <li className="text-white pt-8">
+                                                <li className="text-white pt-8" onClick={() => setShow(!show)}>
                                                     <div className="flex items-center justify-between">
                                                         <div className="flex items-center">
                                                             <div className="w-6 h-6 md:w-8 md:h-8 text-white">
@@ -249,7 +262,7 @@ export default function Navbar() {
                                                 </li>
                                             </Link>
                                             <Link href={'/solution'} className="cursor-pointer">
-                                                <li className="text-white pt-8">
+                                                <li className="text-white pt-8" onClick={() => setShow(!show)}>
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-white">
                                                             <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-compass" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -263,7 +276,7 @@ export default function Navbar() {
                                                 </li>
                                             </Link>
                                             <Link href={'/technology'}>
-                                            <li className="text-white pt-8 cursor-pointer">
+                                            <li className="text-white pt-8 cursor-pointer" onClick={() => setShow(!show)}>
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-white">
@@ -280,7 +293,7 @@ export default function Navbar() {
                                             </li>
                                             </Link>
                                             <Link href={'/implementation'}>
-                                            <li className="text-white pt-8 cursor-pointer">
+                                            <li className="text-white pt-8 cursor-pointer" onClick={() => setShow(!show)}>
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-white">
@@ -297,7 +310,7 @@ export default function Navbar() {
                                             </li>
                                             </Link>
                                             <Link href={'/benefits'}>
-                                            <li className="text-white pt-8 cursor-pointer">
+                                            <li className="text-white pt-8 cursor-pointer" onClick={() => setShow(!show)}>
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-white">
