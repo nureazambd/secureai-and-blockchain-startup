@@ -9,7 +9,7 @@ export default function Navbar() {
     <>
       <div className="bg-gray-200 h-full w-full">
         {/* Code block starts */}
-        <nav className="w-full mx-auto hidden xl:block bg-gray-800 shadow">
+        <nav className="w-full mx-auto hidden xl:block bg-gray-800 shadow py-10">
           <div className="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
             <div className="h-full flex items-center">
               <div className="mr-10 flex items-center">
@@ -17,9 +17,9 @@ export default function Navbar() {
                   aria-label="Home"
                   id="logo"
                   enableBackground="new 0 0 300 300"
-                  height={44}
+                  height={84}
                   viewBox="0 0 300 300"
-                  width={43}
+                  width={83}
                   xmlns="http://www.w3.org/2000/svg"
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
@@ -62,36 +62,137 @@ export default function Navbar() {
                 </Link>
                 <Link href={"/problem"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mx-10 tracking-normal hover:border-b-2 active:border-white">
-                    Problem
+                  <div className="flex items-center">
+                      <div className="w-6 h-6 md:w-8 md:h-8 ">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-grid"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <rect x={4} y={4} width={6} height={6} rx={1} />
+                          <rect x={14} y={4} width={6} height={6} rx={1} />
+                          <rect x={4} y={14} width={6} height={6} rx={1} />
+                          <rect x={14} y={14} width={6} height={6} rx={1} />
+                        </svg>
+                      </div>
+                      <p className=" xl:text-base text-base ml-3">Problem</p>
+                    </div>
+                    
                   </li>
                 </Link>
                 <Link href={"/solution"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
-                    Solution
+                  <div className="flex items-center">
+                      <div className="w-6 h-6 md:w-8 md:h-8 ">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-grid"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <rect x={4} y={4} width={6} height={6} rx={1} />
+                          <rect x={14} y={4} width={6} height={6} rx={1} />
+                          <rect x={4} y={14} width={6} height={6} rx={1} />
+                          <rect x={14} y={14} width={6} height={6} rx={1} />
+                        </svg>
+                      </div>
+                      <p className=" xl:text-base text-base ml-3">Solution</p>
+                    </div>
                   </li>
                 </Link>
                 <Link href={"/technology"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
-                    Technology
+                  <div className="flex items-center">
+                      <div className="w-6 h-6 md:w-8 md:h-8 ">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-grid"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <rect x={4} y={4} width={6} height={6} rx={1} />
+                          <rect x={14} y={4} width={6} height={6} rx={1} />
+                          <rect x={4} y={14} width={6} height={6} rx={1} />
+                          <rect x={14} y={14} width={6} height={6} rx={1} />
+                        </svg>
+                      </div>
+                      <p className=" xl:text-base text-base ml-3">Technology</p>
+                    </div>
                   </li>
                 </Link>
                 {/* Implementation */}
 
                 <Link href={"/implementation"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
-                    Implementation
+                  <div className="flex items-center">
+                      <div className="w-6 h-6 md:w-8 md:h-8 ">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-grid"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <rect x={4} y={4} width={6} height={6} rx={1} />
+                          <rect x={14} y={4} width={6} height={6} rx={1} />
+                          <rect x={4} y={14} width={6} height={6} rx={1} />
+                          <rect x={14} y={14} width={6} height={6} rx={1} />
+                        </svg>
+                      </div>
+                      <p className=" xl:text-base text-base ml-3">Implementation</p>
+                    </div>
                   </li>
                 </Link>
                 <Link href={"/benefits"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
-                    Benefits
+                  <div className="flex items-center">
+                      <div className="w-6 h-6 md:w-8 md:h-8 ">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-grid"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <rect x={4} y={4} width={6} height={6} rx={1} />
+                          <rect x={14} y={4} width={6} height={6} rx={1} />
+                          <rect x={4} y={14} width={6} height={6} rx={1} />
+                          <rect x={14} y={14} width={6} height={6} rx={1} />
+                        </svg>
+                      </div>
+                      <p className=" xl:text-base text-base ml-3">Benefits</p>
+                    </div>
                   </li>
                 </Link>
               </ul>
             </div>
             <div className="h-full xl:flex items-center justify-end hidden">
               <div className="w-full h-full flex items-center">
-                <div className="w-full pr-12 h-full flex items-center border-gray-700 border-r">
+                {/* <div className="w-full pr-12 h-full flex items-center border-gray-700 border-r">
                   <div className="relative w-full">
                     <div className="text-white absolute ml-3 inset-0 m-auto w-4 h-4">
                       <svg
@@ -117,9 +218,9 @@ export default function Navbar() {
                       placeholder="Search"
                     />
                   </div>
-                </div>
+                </div> */}
                 <div className="w-full h-full flex">
-                  <div className="w-32 h-full flex items-center justify-center border-gray-700 border-r text-gray-400 cursor-pointer">
+                  {/* <div className="w-32 h-full flex items-center justify-center border-gray-700 border-r text-gray-400 cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="icon icon-tabler icon-tabler-bell"
@@ -136,7 +237,7 @@ export default function Navbar() {
                       <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
                       <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
                     </svg>
-                  </div>
+                  </div> */}
                   <div
                     className="w-full flex items-center justify-end relative cursor-pointer"
                     onClick={() => setProfile(!profile)}
@@ -177,7 +278,7 @@ export default function Navbar() {
                       src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
                       alt="logo"
                     />
-                    <p className="text-white text-sm ml-2">Jane Doe</p>
+                    <p className="text-white text-sm ml-2">Contact</p>
                   </div>
                 </div>
               </div>
