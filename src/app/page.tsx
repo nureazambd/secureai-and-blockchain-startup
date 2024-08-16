@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-24">
-      <div className=" mt-20 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4 bg-gray-100">
+    <main className="flex min-h-screen flex-col items-center justify-between px-5 md:px-24">
+      <div className=" mt-20 container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4 bg-gray-100">
             <div className="flex justify-between items-center w-full">
                 <div className="flex flex-col justify-start items-start">
                     <p className="text-sm leading-none text-gray-600">home - Secure AI</p>
