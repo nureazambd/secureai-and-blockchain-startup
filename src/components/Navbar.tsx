@@ -217,7 +217,7 @@ export default function Navbar() {
                                             </div>
                                         </div>
                                         <ul className="f-m-m">
-                                            <a className="cursor-pointer">
+                                            <Link href={'/'} className="cursor-pointer">
                                                 <li className="text-white pt-10">
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-indigo-700">
@@ -232,8 +232,8 @@ export default function Navbar() {
                                                         <p className="text-indigo-700 xl:text-base text-base ml-3">Home</p>
                                                     </div>
                                                 </li>
-                                            </a>
-                                            <a className="cursor-pointer">
+                                            </Link>
+                                            <Link href={'/problem'} className="cursor-pointer">
                                                 <li className="text-white pt-8">
                                                     <div className="flex items-center justify-between">
                                                         <div className="flex items-center">
@@ -247,8 +247,8 @@ export default function Navbar() {
                                                         </div>
                                                     </div>
                                                 </li>
-                                            </a>
-                                            <a className="cursor-pointer">
+                                            </Link>
+                                            <Link href={'/solution'} className="cursor-pointer">
                                                 <li className="text-white pt-8">
                                                     <div className="flex items-center">
                                                         <div className="w-6 h-6 md:w-8 md:h-8 text-white">
@@ -261,7 +261,8 @@ export default function Navbar() {
                                                         <p className="text-white xl:text-base  text-base ml-3">Solution</p>
                                                     </div>
                                                 </li>
-                                            </a>
+                                            </Link>
+                                            <Link href={'/technology'}>
                                             <li className="text-white pt-8 cursor-pointer">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
@@ -277,6 +278,8 @@ export default function Navbar() {
                                                     </div>
                                                 </div>
                                             </li>
+                                            </Link>
+                                            <Link href={'/implementation'}>
                                             <li className="text-white pt-8 cursor-pointer">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
@@ -292,6 +295,8 @@ export default function Navbar() {
                                                     </div>
                                                 </div>
                                             </li>
+                                            </Link>
+                                            <Link href={'/benefits'}>
                                             <li className="text-white pt-8 cursor-pointer">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center">
@@ -307,6 +312,7 @@ export default function Navbar() {
                                                     </div>
                                                 </div>
                                             </li>
+                                            </Link>
                                         </ul>
                                     </div>
                                     <div className="w-full pt-4">
