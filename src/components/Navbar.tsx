@@ -64,22 +64,19 @@ export default function Navbar() {
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mx-10 tracking-normal hover:border-b-2 active:border-white">
                   <div className="flex items-center">
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="icon icon-tabler icon-tabler-grid"
-                          viewBox="0 0 24 24"
-                          strokeWidth="1.5"
-                          stroke="currentColor"
-                          fill="none"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" />
-                          <rect x={4} y={4} width={6} height={6} rx={1} />
-                          <rect x={14} y={4} width={6} height={6} rx={1} />
-                          <rect x={4} y={14} width={6} height={6} rx={1} />
-                          <rect x={14} y={14} width={6} height={6} rx={1} />
-                        </svg>
+                      <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  className="icon icon-tabler icon-tabler-puzzle"
+                                  viewBox="0 0 24 24"
+                                  strokeWidth="1.5"
+                                  stroke="currentColor"
+                                  fill="none"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                >
+                                  <path stroke="none" d="M0 0h24v24H0z" />
+                                  <path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" />
+                                </svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">Problem</p>
                     </div>
@@ -90,22 +87,20 @@ export default function Navbar() {
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
                   <div className="flex items-center">
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="icon icon-tabler icon-tabler-grid"
-                          viewBox="0 0 24 24"
-                          strokeWidth="1.5"
-                          stroke="currentColor"
-                          fill="none"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" />
-                          <rect x={4} y={4} width={6} height={6} rx={1} />
-                          <rect x={14} y={4} width={6} height={6} rx={1} />
-                          <rect x={4} y={14} width={6} height={6} rx={1} />
-                          <rect x={14} y={14} width={6} height={6} rx={1} />
-                        </svg>
+                      <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="icon icon-tabler icon-tabler-compass"
+                                viewBox="0 0 24 24"
+                                strokeWidth="1.5"
+                                stroke="currentColor"
+                                fill="none"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                              >
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <polyline points="8 16 10 10 16 8 14 14 8 16" />
+                                <circle cx={12} cy={12} r={9} />
+                              </svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">Solution</p>
                     </div>
@@ -115,22 +110,21 @@ export default function Navbar() {
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
                   <div className="flex items-center">
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="icon icon-tabler icon-tabler-grid"
-                          viewBox="0 0 24 24"
-                          strokeWidth="1.5"
-                          stroke="currentColor"
-                          fill="none"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" />
-                          <rect x={4} y={4} width={6} height={6} rx={1} />
-                          <rect x={14} y={4} width={6} height={6} rx={1} />
-                          <rect x={4} y={14} width={6} height={6} rx={1} />
-                          <rect x={14} y={14} width={6} height={6} rx={1} />
-                        </svg>
+                      <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  className="icon icon-tabler icon-tabler-code"
+                                  viewBox="0 0 24 24"
+                                  strokeWidth="1.5"
+                                  stroke="currentColor"
+                                  fill="none"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                >
+                                  <path stroke="none" d="M0 0h24v24H0z" />
+                                  <polyline points="7 8 3 12 7 16" />
+                                  <polyline points="17 8 21 12 17 16" />
+                                  <line x1={14} y1={4} x2={10} y2={20} />
+                                </svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">Technology</p>
                     </div>
@@ -142,22 +136,21 @@ export default function Navbar() {
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
                   <div className="flex items-center">
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="icon icon-tabler icon-tabler-grid"
-                          viewBox="0 0 24 24"
-                          strokeWidth="1.5"
-                          stroke="currentColor"
-                          fill="none"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" />
-                          <rect x={4} y={4} width={6} height={6} rx={1} />
-                          <rect x={14} y={4} width={6} height={6} rx={1} />
-                          <rect x={4} y={14} width={6} height={6} rx={1} />
-                          <rect x={14} y={14} width={6} height={6} rx={1} />
-                        </svg>
+                      <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  className="icon icon-tabler icon-tabler-code"
+                                  viewBox="0 0 24 24"
+                                  strokeWidth="1.5"
+                                  stroke="currentColor"
+                                  fill="none"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                >
+                                  <path stroke="none" d="M0 0h24v24H0z" />
+                                  <polyline points="7 8 3 12 7 16" />
+                                  <polyline points="17 8 21 12 17 16" />
+                                  <line x1={14} y1={4} x2={10} y2={20} />
+                                </svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">Implementation</p>
                     </div>
@@ -167,22 +160,21 @@ export default function Navbar() {
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
                   <div className="flex items-center">
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="icon icon-tabler icon-tabler-grid"
-                          viewBox="0 0 24 24"
-                          strokeWidth="1.5"
-                          stroke="currentColor"
-                          fill="none"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        >
-                          <path stroke="none" d="M0 0h24v24H0z" />
-                          <rect x={4} y={4} width={6} height={6} rx={1} />
-                          <rect x={14} y={4} width={6} height={6} rx={1} />
-                          <rect x={4} y={14} width={6} height={6} rx={1} />
-                          <rect x={14} y={14} width={6} height={6} rx={1} />
-                        </svg>
+                      <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  className="icon icon-tabler icon-tabler-code"
+                                  viewBox="0 0 24 24"
+                                  strokeWidth="1.5"
+                                  stroke="currentColor"
+                                  fill="none"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                >
+                                  <path stroke="none" d="M0 0h24v24H0z" />
+                                  <polyline points="7 8 3 12 7 16" />
+                                  <polyline points="17 8 21 12 17 16" />
+                                  <line x1={14} y1={4} x2={10} y2={20} />
+                                </svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">Benefits</p>
                     </div>
@@ -732,47 +724,10 @@ export default function Navbar() {
                             className="w-8 h-8 rounded-md"
                           />
                           <p className=" text-white text-base leading-4 ml-2">
-                            Jane Doe
+                            Contact us
                           </p>
                         </div>
-                        <ul className="flex">
-                          <li className="cursor-pointer text-white pt-5 pb-3">
-                            <div className="w-6 h-6 md:w-8 md:h-8">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="icon icon-tabler icon-tabler-messages"
-                                viewBox="0 0 24 24"
-                                strokeWidth={1}
-                                stroke="currentColor"
-                                fill="none"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              >
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
-                                <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
-                              </svg>
-                            </div>
-                          </li>
-                          <li className="cursor-pointer text-white pt-5 pb-3 pl-3">
-                            <div className="w-6 h-6 md:w-8 md:h-8">
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="icon icon-tabler icon-tabler-bell"
-                                viewBox="0 0 24 24"
-                                strokeWidth={1}
-                                stroke="currentColor"
-                                fill="none"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              >
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
-                                <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
-                              </svg>
-                            </div>
-                          </li>
-                        </ul>
+                        
                       </div>
                     </div>
                   </div>
