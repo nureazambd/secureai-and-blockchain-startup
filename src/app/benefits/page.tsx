@@ -41,7 +41,7 @@ export default function Benefits() {
                   <p
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Our platform's decentralized architecture and robust
+                    Our platforms decentralized architecture and robust
                     security measures will provide users with unparalleled data
                     security and privacy, mitigating the risks associated with
                     centralized storage solutions.
