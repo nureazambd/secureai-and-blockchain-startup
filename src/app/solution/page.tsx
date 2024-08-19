@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function Solution() {
   return (
@@ -17,9 +17,11 @@ export default function Solution() {
                 Proposed Solution
               </h1>
             </div>
-            <p className='mt-4 px-10 text-lg'>Our startup addresses these challenges by integrating AI and blockchain technologies to build a
-secure, decentralized platform for AI applications. Key components of our solution include:
-</p>
+            <p className="mt-4 px-10 text-lg">
+              Our startup addresses these challenges by integrating AI and
+              blockchain technologies to build a secure, decentralized platform
+              for AI applications. Key components of our solution include:
+            </p>
             <div
               tabIndex={0}
               aria-label="group of cards"
@@ -50,9 +52,9 @@ secure, decentralized platform for AI applications. Key components of our soluti
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    We will develop AI projects with a strong emphasis on security, ensuring that all processes and
-data interactions are protected against unauthorized access and breaches.
-
+                    We will develop AI projects with a strong emphasis on
+                    security, ensuring that all processes and data interactions
+                    are protected against unauthorized access and breaches.
                   </p>
                 </div>
               </div>
@@ -75,15 +77,17 @@ data interactions are protected against unauthorized access and breaches.
                     tabIndex={0}
                     className="focus:outline-none text-lg font-semibold leading-tight text-gray-800"
                   >
-                     Native Cryptocurrency
+                    Native Cryptocurrency
                   </h2>
                   <p
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Our platform will feature a native cryptocurrency to facilitate secure transactions and incentivize
-network participants. This cryptocurrency will also be used to reward users who contribute to the
-network by providing storage space and computational power.
+                    Our platform will feature a native cryptocurrency to
+                    facilitate secure transactions and incentivize network
+                    participants. This cryptocurrency will also be used to
+                    reward users who contribute to the network by providing
+                    storage space and computational power.
                   </p>
                 </div>
               </div>
@@ -112,38 +116,77 @@ network by providing storage space and computational power.
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    We will develop generative AI tools that automate replies and posts on social media, enabling
-users to maintain an active online presence effortlessly. These tools will be designed to
-understand and replicate user behavior while ensuring security and privacy.
-
+                    We will develop generative AI tools that automate replies
+                    and posts on social media, enabling users to maintain an
+                    active online presence effortlessly. These tools will be
+                    designed to understand and replicate user behavior while
+                    ensuring security and privacy.
                   </p>
                 </div>
               </div>
-              <div tabIndex={0} aria-label="card 4" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
+              <div
+                tabIndex={0}
+                aria-label="card 4"
+                className="focus:outline-none flex sm:w-full md:w-5/12 pb-20"
+              >
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg" alt="monitor" />
+                    <img
+                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg"
+                      alt="monitor"
+                    />
                   </div>
                 </div>
                 <div className="w-10/12">
-                  <h2 tabIndex={0} className="focus:outline-none text-lg font-semibold leading-tight text-gray-800">Decentralized Data Management                  </h2>
-                  <p tabIndex={0} className="focus:outline-none text-base text-gray-600 leading-normal pt-2">By utilizing decentralized cloud storage, we eliminate single points of failure and provide users
-                  with greater control over their data. This approach enhances security, privacy, and data integrity.</p>
+                  <h2
+                    tabIndex={0}
+                    className="focus:outline-none text-lg font-semibold leading-tight text-gray-800"
+                  >
+                    Decentralized Data Management{" "}
+                  </h2>
+                  <p
+                    tabIndex={0}
+                    className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
+                  >
+                    By utilizing decentralized cloud storage, we eliminate
+                    single points of failure and provide users with greater
+                    control over their data. This approach enhances security,
+                    privacy, and data integrity.
+                  </p>
                 </div>
               </div>
-              <div tabIndex={0} aria-label="card 4" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
+              <div
+                tabIndex={0}
+                aria-label="card 4"
+                className="focus:outline-none flex sm:w-full md:w-5/12 pb-20"
+              >
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg" alt="monitor" />
+                    <img
+                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg"
+                      alt="monitor"
+                    />
                   </div>
                 </div>
                 <div className="w-10/12">
-                  <h2 tabIndex={0} className="focus:outline-none text-lg font-semibold leading-tight text-gray-800">Generative AI for Image Editing</h2>
-                  <p tabIndex={0} className="focus:outline-none text-base text-gray-600 leading-normal pt-2">Our platform will offer advanced generative AI capabilities for image editing, allowing users to
-create and modify images with ease. This feature will be integrated with robust security
-measures to protect user data and intellectual property</p>
+                  <h2
+                    tabIndex={0}
+                    className="focus:outline-none text-lg font-semibold leading-tight text-gray-800"
+                  >
+                    Generative AI for Image Editing
+                  </h2>
+                  <p
+                    tabIndex={0}
+                    className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
+                  >
+                    Our platform will offer advanced generative AI capabilities
+                    for image editing, allowing users to create and modify
+                    images with ease. This feature will be integrated with
+                    robust security measures to protect user data and
+                    intellectual property
+                  </p>
                 </div>
               </div>
             </div>
@@ -153,5 +196,5 @@ measures to protect user data and intellectual property</p>
         {/* Code block ends */}
       </div>
     </div>
-  )
+  );
 }
