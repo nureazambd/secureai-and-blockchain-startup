@@ -493,7 +493,7 @@ export default function Navbar() {
                           onClick={() => setShow(!show)}
                         >
                           <div className="flex items-center">
-                            <div className="w-6 h-6 md:w-8 md:h-8 text-indigo-700">
+                            <div className="w-6 h-6 md:w-8 md:h-8">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="icon icon-tabler icon-tabler-grid"
@@ -529,7 +529,7 @@ export default function Navbar() {
                                 />
                               </svg>
                             </div>
-                            <p className="text-indigo-700 xl:text-base text-base ml-3">
+                            <p className="xl:text-base text-base ml-3">
                               Home
                             </p>
                           </div>
