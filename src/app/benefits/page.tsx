@@ -125,6 +125,20 @@ export default function Benefits() {
             </div>
           </div>
         </section>
+
+        <section className="text-gray-600 body-font">
+  <div className="container px-5 py-10 mx-auto">
+    <div className="flex flex-col text-center w-full mb-20">
+      <h1 className="sm:text-3xl text-2xl font-extrabold title-font mb-4 text-gray-900">Conclusion</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Our AI and blockchain startup aims to revolutionize the way AI applications are developed and
+deployed by prioritizing security, privacy, and decentralization. By integrating cutting-edge
+technologies and innovative solutions, we are committed to building a platform that empowers
+users to harness the full potential of AI while ensuring their data remains secure and private. We
+invite investors, partners, and users to join us in this exciting journey towards a secure and
+decentralized AI future.</p>
+    </div>
+  </div>
+</section>
       </div>
     </div>
   );
