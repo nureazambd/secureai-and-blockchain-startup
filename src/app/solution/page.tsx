@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Solution() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="flex min-h-screen flex-col items-center justify-between lg:p-24">
       <div className="pb-16" style={{ fontFamily: '"Lato", sans-serif' }}>
         {/* Code block starts */}
 

@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 export default function Navbar() {
   const [show, setShow] = useState(false);
-  const [profile, setProfile] = useState(false);
+  // const [profile, setProfile] = useState(false);
   return (
     <>
       <div className="bg-gray-200 h-full w-full">
@@ -184,87 +184,13 @@ export default function Navbar() {
             </div>
             <div className="h-full xl:flex items-center justify-end hidden">
               <div className="w-full h-full flex items-center">
-                {/* <div className="w-full pr-12 h-full flex items-center border-gray-700 border-r">
-                  <div className="relative w-full">
-                    <div className="text-white absolute ml-3 inset-0 m-auto w-4 h-4">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon icon-tabler icon-tabler-search"
-                        width={16}
-                        height={16}
-                        viewBox="0 0 24 24"
-                        strokeWidth="1.5"
-                        stroke="currentColor"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path stroke="none" d="M0 0h24v24H0z" />
-                        <circle cx={10} cy={10} r={7} />
-                        <line x1={21} y1={21} x2={15} y2={15} />
-                      </svg>
-                    </div>
-                    <input
-                      className="border border-gray-700 focus:outline-none focus:border-indigo-700 w-56 rounded text-sm text-white bg-gray-700 pl-8 py-2"
-                      type="text"
-                      placeholder="Search"
-                    />
-                  </div>
-                </div> */}
+               
                 <div className="w-full h-full flex">
-                  {/* <div className="w-32 h-full flex items-center justify-center border-gray-700 border-r text-gray-400 cursor-pointer">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="icon icon-tabler icon-tabler-bell"
-                      width={28}
-                      height={28}
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="currentColor"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" />
-                      <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
-                      <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
-                    </svg>
-                  </div> */}
+                 
+                  <Link href={'/contact'}>
                   <div
                     className="w-full flex items-center justify-end relative cursor-pointer"
-                    onClick={() => setProfile(!profile)}
                   >
-                    {/* {profile && (
-                                            <ul className="p-2 w-40 border-r bg-white absolute rounded left-0 shadow mt-16 top-0 ">
-                                                <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
-                                                    <div className="flex items-center">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-user" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" />
-                                                            <circle cx={12} cy={7} r={4} />
-                                                            <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-                                                        </svg>
-                                                        <span className="ml-2">My Profile</span>
-                                                    </div>
-                                                </li>
-                                                <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex items-center">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-help" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" />
-                                                        <circle cx={12} cy={12} r={9} />
-                                                        <line x1={12} y1={17} x2={12} y2="17.01" />
-                                                        <path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4" />
-                                                    </svg>
-                                                    <span className="ml-2">Help Center</span>
-                                                </li>
-                                                <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-settings" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" />
-                                                        <path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                                                        <circle cx={12} cy={12} r={3} />
-                                                    </svg>
-                                                    <span className="ml-2">Account Settings</span>
-                                                </li>
-                                            </ul>
-                                        )} */}
                     <img
                       className="rounded h-10 w-10 object-cover"
                       src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
@@ -272,6 +198,7 @@ export default function Navbar() {
                     />
                     <p className="text-white text-sm ml-2">Contact</p>
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -688,35 +615,10 @@ export default function Navbar() {
                     </ul>
                   </div>
                   <div className="w-full pt-4">
-                    <div className="flex justify-center mb-4 w-full">
-                      <div className="relative w-full">
-                        <div className="text-gray-500 absolute ml-4 inset-0 m-auto w-4 h-4">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="icon icon-tabler icon-tabler-search"
-                            width={16}
-                            height={16}
-                            viewBox="0 0 24 24"
-                            strokeWidth={1}
-                            stroke="#A0AEC0"
-                            fill="none"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" />
-                            <circle cx={10} cy={10} r={7} />
-                            <line x1={21} y1={21} x2={15} y2={15} />
-                          </svg>
-                        </div>
-                        <input
-                          className="bg-gray-100 focus:outline-none rounded w-full text-sm text-gray-500 bg-gray-700 pl-10 py-2"
-                          type="text"
-                          placeholder="Search"
-                        />
-                      </div>
-                    </div>
+                    
                     <div className="border-t border-gray-700">
                       <div className="w-full flex items-center justify-between pt-1">
+                        <Link href={'/contact'}>
                         <div className="flex items-center">
                           <img
                             alt="profile-pic"
@@ -724,9 +626,10 @@ export default function Navbar() {
                             className="w-8 h-8 rounded-md"
                           />
                           <p className=" text-white text-base leading-4 ml-2">
-                            Contact us
+                            Contact
                           </p>
                         </div>
+                        </Link>
                         
                       </div>
                     </div>
