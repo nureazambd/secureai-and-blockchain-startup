@@ -10,7 +10,6 @@ export default function Navbar() {
     <>
       <div className="bg-gray-200 h-full w-full">
         {/* Code block starts */}
-<<<<<<< HEAD
         <nav className="w-full mx-auto hidden xl:block bg-[#021907] shadow py-10">
           <div className="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
             <div className="h-full flex items-center">
@@ -42,28 +41,6 @@ export default function Navbar() {
                   Secure Intelligent
                 </h3> */}
               </div>
-=======
-        <nav className="w-full mx-auto hidden xl:block bg-[#1a0cc7] shadow py-10">
-          <div className="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
-            <div className="h-full flex items-center">
-              <Link href={"/"}>
-                <div className="mr-10 flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                    height={86}
-                    width={85}
-                    fill="white"
-                  >
-                    <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
-                  </svg>
-
-                  <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">
-                    Secure AI and Blockchain
-                  </h3>
-                </div>
-              </Link>
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
               <ul className="pr-12 xl:flex items-center h-full hidden">
                 <Link href={"/"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white tracking-normal hover:border-b-2 active:border-white">
@@ -84,11 +61,7 @@ export default function Navbar() {
                 <Link href={"/problem"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mx-10 tracking-normal hover:border-b-2 active:border-white">
                     <div className="flex items-center">
-<<<<<<< HEAD
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-=======
-                      <div className="w-4 h-4 md:w-6 md:h-6 ">
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="icon icon-tabler icon-tabler-puzzle"
@@ -110,11 +83,7 @@ export default function Navbar() {
                 <Link href={"/solution"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
                     <div className="flex items-center">
-<<<<<<< HEAD
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-=======
-                      <div className="w-4 h-4 md:w-6 md:h-6 ">
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="icon icon-tabler icon-tabler-compass"
@@ -137,21 +106,8 @@ export default function Navbar() {
                 <Link href={"/technology"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
                     <div className="flex items-center">
-<<<<<<< HEAD
                       <div className="w-5 h-5 md:w-6 md:h-6 ">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 448 512"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288l111.5 0L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7l-111.5 0L349.4 44.6z"/></svg>
-=======
-                      <div className="w-4 h-4 md:w-6 md:h-6 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 512 512"
-                          stroke="currentColor"
-                          fill="white"
-                        >
-                          {" "}
-                          <path d="M502.3 159.7l-234-156c-8-4.9-16.5-5-24.6 0l-234 156C3.7 163.7 0 170.8 0 178v156c0 7.1 3.7 14.3 9.7 18.3l234 156c8 4.9 16.5 5 24.6 0l234-156c6-4 9.7-11.1 9.7-18.3V178c0-7.1-3.7-14.3-9.7-18.3zM278 63.1l172.3 114.9-76.9 51.4L278 165.7V63.1zm-44 0v102.6l-95.4 63.7-76.9-51.4L234 63.1zM44 219.1l55.1 36.9L44 292.8v-73.7zm190 229.7L61.7 334l76.9-51.4L234 346.3v102.6zm22-140.9l-77.7-52 77.7-52 77.7 52-77.7 52zm22 140.9V346.3l95.4-63.7 76.9 51.4L278 448.8zm190-156l-55.1-36.9L468 219.1v73.7z" />
-                        </svg>
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                       </div>
                       <p className=" xl:text-base text-base ml-3">Technology</p>
                     </div>
@@ -162,7 +118,6 @@ export default function Navbar() {
                 <Link href={"/implementation"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
                     <div className="flex items-center">
-<<<<<<< HEAD
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -178,15 +133,6 @@ export default function Navbar() {
                           <polyline points="7 8 3 12 7 16" />
                           <polyline points="17 8 21 12 17 16" />
                           <line x1={14} y1={4} x2={10} y2={20} />
-=======
-                      <div className="w-4 h-4 md:w-6 md:h-6 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 640 512"
-                          fill="white"
-                        >
-                          <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" />
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                         </svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">
@@ -198,19 +144,8 @@ export default function Navbar() {
                 <Link href={"/benefits"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
                     <div className="flex items-center">
-<<<<<<< HEAD
                       <div className="w-5 h-5 md:w-6 md:h-6 ">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
-=======
-                      <div className="w-4 h-4 md:w-6 md:h-6 ">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 640 512"
-                          fill="white"
-                        >
-                          <path d="M180.5 74.3C80.8 74.3 0 155.6 0 256S80.8 437.7 180.5 437.7 361 356.4 361 256 280.2 74.3 180.5 74.3zm288.3 10.6c-49.8 0-90.2 76.6-90.2 171.1s40.4 171.1 90.3 171.1 90.3-76.6 90.3-171.1H559C559 161.5 518.6 84.9 468.8 84.9zm139.5 17.8c-17.5 0-31.7 68.6-31.7 153.3s14.2 153.3 31.7 153.3S640 340.6 640 256C640 171.4 625.8 102.7 608.3 102.7z" />
-                        </svg>
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                       </div>
                       <p className=" xl:text-base text-base ml-3">Benefits</p>
                     </div>
@@ -221,7 +156,6 @@ export default function Navbar() {
             <div className="h-full xl:flex items-center justify-end hidden">
               <div className="w-full h-full flex items-center">
                 <div className="w-full h-full flex">
-<<<<<<< HEAD
                   {/* <div className="w-32 h-full flex items-center justify-center border-gray-700 border-r text-gray-400 cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -242,30 +176,12 @@ export default function Navbar() {
                   </div> */}
                   <div
                     className="w-full flex items-center justify-end relative cursor-pointer"
-                    onClick={() => setProfile(!profile)}
+                    
                   >
                     
                     <svg className="rounded h-10 w-10 object-cover" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M512 80c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l448 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM208 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80l-64 0zM376 144c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0z"/></svg>
                     <p className="text-white text-sm ml-2">Contact</p>
                   </div>
-=======
-                  <Link href={"/contact"}>
-                    <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
-                      <div className="flex items-center">
-                        <div className="w-4 h-4 md:w-6 md:h-6 ">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 576 512"
-                            fill="white"
-                          >
-                            <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm80 256l64 0c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16L80 384c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm256-32l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-                          </svg>
-                        </div>
-                        <p className=" xl:text-base text-base ml-3">Contact</p>
-                      </div>
-                    </li>
-                  </Link>
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                 </div>
               </div>
             </div>
@@ -371,7 +287,6 @@ export default function Navbar() {
         </nav>
         {/* Navbar */}
         <nav>
-<<<<<<< HEAD
           <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center bg-[#021907] fixed top-0 z-40">
             <div className="w-24">
             <Image
@@ -380,19 +295,6 @@ export default function Navbar() {
                   height={80}
                   alt="Picture of the author"
                 />
-=======
-          <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center bg-[#1a0cc7] fixed top-0 z-40">
-            <div className="w-24">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 448 512"
-                height={46}
-                width={45}
-                fill="white"
-              >
-                <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
-              </svg>
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
             </div>
             <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 flex xl:hidden">
                   Secure Intelligent
@@ -447,7 +349,6 @@ export default function Navbar() {
                     <div className="mt-6 flex w-full items-center justify-between">
                       <div className="flex items-center justify-between w-full">
                         <div className="flex items-center">
-<<<<<<< HEAD
                         <Image
                   src="/logo.jpg"
                   width={80}
@@ -457,20 +358,6 @@ export default function Navbar() {
                           {/* <p className="text-base  text-white ml-3">
                             Secure Intelligent
                           </p> */}
-=======
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 448 512"
-                            height={46}
-                            width={45}
-                            fill="white"
-                          >
-                            <path d="M0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96z" />
-                          </svg>
-                          <p className="text-base  text-white ml-3">
-                            Secure AI and Blockchain
-                          </p>
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                         </div>
                         <div
                           id="cross"
@@ -580,22 +467,9 @@ export default function Navbar() {
                         >
                           <div className="flex items-center justify-between">
                             <div className="flex items-center">
-<<<<<<< HEAD
                               <div className="w-4 h-4 md:w-8 md:h-8 text-white">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 448 512"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288l111.5 0L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7l-111.5 0L349.4 44.6z"/></svg>
                                 
-=======
-                              <div className="w-6 h-6 md:w-8 md:h-8 text-white">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 512 512"
-                                  stroke="currentColor"
-                                  fill="white"
-                                >
-                                  {" "}
-                                  <path d="M502.3 159.7l-234-156c-8-4.9-16.5-5-24.6 0l-234 156C3.7 163.7 0 170.8 0 178v156c0 7.1 3.7 14.3 9.7 18.3l234 156c8 4.9 16.5 5 24.6 0l234-156c6-4 9.7-11.1 9.7-18.3V178c0-7.1-3.7-14.3-9.7-18.3zM278 63.1l172.3 114.9-76.9 51.4L278 165.7V63.1zm-44 0v102.6l-95.4 63.7-76.9-51.4L234 63.1zM44 219.1l55.1 36.9L44 292.8v-73.7zm190 229.7L61.7 334l76.9-51.4L234 346.3v102.6zm22-140.9l-77.7-52 77.7-52 77.7 52-77.7 52zm22 140.9V346.3l95.4-63.7 76.9 51.4L278 448.8zm190-156l-55.1-36.9L468 219.1v73.7z" />
-                                </svg>
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                               </div>
                               <p className="text-white xl:text-base  text-base ml-3">
                                 Technology
@@ -634,20 +508,9 @@ export default function Navbar() {
                         >
                           <div className="flex items-center justify-between">
                             <div className="flex items-center">
-<<<<<<< HEAD
                               <div className="w-4 h-4 md:w-6 md:h-6 text-white">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
                                 
-=======
-                              <div className="w-6 h-6 md:w-8 md:h-8 text-white">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 640 512"
-                                  fill="white"
-                                >
-                                  <path d="M180.5 74.3C80.8 74.3 0 155.6 0 256S80.8 437.7 180.5 437.7 361 356.4 361 256 280.2 74.3 180.5 74.3zm288.3 10.6c-49.8 0-90.2 76.6-90.2 171.1s40.4 171.1 90.3 171.1 90.3-76.6 90.3-171.1H559C559 161.5 518.6 84.9 468.8 84.9zm139.5 17.8c-17.5 0-31.7 68.6-31.7 153.3s14.2 153.3 31.7 153.3S640 340.6 640 256C640 171.4 625.8 102.7 608.3 102.7z" />
-                                </svg>
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                               </div>
                               <p className="text-white xl:text-base  text-base ml-4">
                                 Benefits
@@ -658,7 +521,6 @@ export default function Navbar() {
                       </Link>
                     </ul>
                   </div>
-<<<<<<< HEAD
                   <div className="w-full pt-4">
                     
                     <div className="border-t border-gray-700">
@@ -670,31 +532,6 @@ export default function Navbar() {
                             Contact us
                           </p>
                         </div>
-=======
-                  <div className="w-full pt-6">
-                    <div className="border-t border-gray-700">
-                      <div className="w-full flex items-center justify-between pt-1">
-                        <Link href={"/contact"}>
-                          <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white"
-                          onClick={() => setShow(!show)}
-                          >
-                            <div className="flex items-center">
-                              <div className="w-6 h-6 md:w-8 md:h-8 ">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 576 512"
-                                  fill="white"
-                                >
-                                  <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm80 256l64 0c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16L80 384c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm256-32l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-                                </svg>
-                              </div>
-                              <p className=" xl:text-base text-base ml-3">
-                                Contact
-                              </p>
-                            </div>
-                          </li>
-                        </Link>
->>>>>>> e4923267df0f4f35a969df5ed9cac370c2c8b6fb
                       </div>
                     </div>
                   </div>
