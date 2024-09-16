@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from 'next/image'
 import React, { useState } from "react";
 export default function Navbar() {
   const [show, setShow] = useState(false);
@@ -9,11 +10,11 @@ export default function Navbar() {
     <>
       <div className="bg-gray-200 h-full w-full">
         {/* Code block starts */}
-        <nav className="w-full mx-auto hidden xl:block bg-gray-800 shadow py-10">
+        <nav className="w-full mx-auto hidden xl:block bg-[#021907] shadow py-10">
           <div className="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
             <div className="h-full flex items-center">
               <div className="mr-10 flex items-center">
-                <svg
+                {/* <svg
                   aria-label="Home"
                   id="logo"
                   enableBackground="new 0 0 300 300"
@@ -29,10 +30,16 @@ export default function Navbar() {
                       d="m234.735 35.532c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zm0 24c-4.412 0-8-3.588-8-8s3.588-8 8-8 8 3.588 8 8-3.588 8-8 8zm-62.529-14c0-2.502 2.028-4.53 4.53-4.53s4.53 2.028 4.53 4.53c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.027-4.53-4.529zm89.059 60c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.028-4.53-4.529c0-2.502 2.028-4.53 4.53-4.53s4.53 2.029 4.53 4.53zm-40.522-5.459-88-51.064c-1.242-.723-2.773-.723-4.016 0l-88 51.064c-1.232.715-1.992 2.033-1.992 3.459v104c0 1.404.736 2.705 1.938 3.428l88 52.936c.635.381 1.35.572 2.062.572s1.428-.191 2.062-.572l88-52.936c1.201-.723 1.938-2.023 1.938-3.428v-104c0-1.426-.76-2.744-1.992-3.459zm-90.008-42.98 80.085 46.47-52.95 31.289-23.135-13.607v-21.713c0-2.209-1.791-4-4-4s-4 1.791-4 4v21.713l-26.027 15.309c-1.223.719-1.973 2.029-1.973 3.447v29.795l-52 30.727v-94.688zm0 198.707-80.189-48.237 51.467-30.412 24.723 14.539v19.842c0 2.209 1.791 4 4 4s4-1.791 4-4v-19.842l26.027-15.307c1.223-.719 1.973-2.029 1.973-3.447v-31.667l52-30.728v94.729z"
                     />
                   </g>
-                </svg>
-                <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">
-                  Secure AI and Blockchain
-                </h3>
+                </svg> */}
+                <Image
+                  src="/logo.jpg"
+                  width={100}
+                  height={100}
+                  alt="Picture of the author"
+                />
+                {/* <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">
+                  Secure Intelligent
+                </h3> */}
               </div>
               <ul className="pr-12 xl:flex items-center h-full hidden">
                 <Link href={"/"}>
@@ -62,45 +69,44 @@ export default function Navbar() {
                 </Link>
                 <Link href={"/problem"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mx-10 tracking-normal hover:border-b-2 active:border-white">
-                  <div className="flex items-center">
+                    <div className="flex items-center">
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-                      <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  className="icon icon-tabler icon-tabler-puzzle"
-                                  viewBox="0 0 24 24"
-                                  strokeWidth="1.5"
-                                  stroke="currentColor"
-                                  fill="none"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                >
-                                  <path stroke="none" d="M0 0h24v24H0z" />
-                                  <path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" />
-                                </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-puzzle"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" />
+                        </svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">Problem</p>
                     </div>
-                    
                   </li>
                 </Link>
                 <Link href={"/solution"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
-                  <div className="flex items-center">
+                    <div className="flex items-center">
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-                      <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="icon icon-tabler icon-tabler-compass"
-                                viewBox="0 0 24 24"
-                                strokeWidth="1.5"
-                                stroke="currentColor"
-                                fill="none"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              >
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <polyline points="8 16 10 10 16 8 14 14 8 16" />
-                                <circle cx={12} cy={12} r={9} />
-                              </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-compass"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <polyline points="8 16 10 10 16 8 14 14 8 16" />
+                          <circle cx={12} cy={12} r={9} />
+                        </svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">Solution</p>
                     </div>
@@ -108,23 +114,9 @@ export default function Navbar() {
                 </Link>
                 <Link href={"/technology"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
-                  <div className="flex items-center">
-                      <div className="w-6 h-6 md:w-8 md:h-8 ">
-                      <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  className="icon icon-tabler icon-tabler-code"
-                                  viewBox="0 0 24 24"
-                                  strokeWidth="1.5"
-                                  stroke="currentColor"
-                                  fill="none"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                >
-                                  <path stroke="none" d="M0 0h24v24H0z" />
-                                  <polyline points="7 8 3 12 7 16" />
-                                  <polyline points="17 8 21 12 17 16" />
-                                  <line x1={14} y1={4} x2={10} y2={20} />
-                                </svg>
+                    <div className="flex items-center">
+                      <div className="w-5 h-5 md:w-6 md:h-6 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 448 512"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288l111.5 0L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7l-111.5 0L349.4 44.6z"/></svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">Technology</p>
                     </div>
@@ -134,47 +126,35 @@ export default function Navbar() {
 
                 <Link href={"/implementation"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
-                  <div className="flex items-center">
+                    <div className="flex items-center">
                       <div className="w-6 h-6 md:w-8 md:h-8 ">
-                      <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  className="icon icon-tabler icon-tabler-code"
-                                  viewBox="0 0 24 24"
-                                  strokeWidth="1.5"
-                                  stroke="currentColor"
-                                  fill="none"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                >
-                                  <path stroke="none" d="M0 0h24v24H0z" />
-                                  <polyline points="7 8 3 12 7 16" />
-                                  <polyline points="17 8 21 12 17 16" />
-                                  <line x1={14} y1={4} x2={10} y2={20} />
-                                </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="icon icon-tabler icon-tabler-code"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <polyline points="7 8 3 12 7 16" />
+                          <polyline points="17 8 21 12 17 16" />
+                          <line x1={14} y1={4} x2={10} y2={20} />
+                        </svg>
                       </div>
-                      <p className=" xl:text-base text-base ml-3">Implementation</p>
+                      <p className=" xl:text-base text-base ml-3">
+                        Implementation
+                      </p>
                     </div>
                   </li>
                 </Link>
                 <Link href={"/benefits"}>
                   <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white">
-                  <div className="flex items-center">
-                      <div className="w-6 h-6 md:w-8 md:h-8 ">
-                      <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  className="icon icon-tabler icon-tabler-code"
-                                  viewBox="0 0 24 24"
-                                  strokeWidth="1.5"
-                                  stroke="currentColor"
-                                  fill="none"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                >
-                                  <path stroke="none" d="M0 0h24v24H0z" />
-                                  <polyline points="7 8 3 12 7 16" />
-                                  <polyline points="17 8 21 12 17 16" />
-                                  <line x1={14} y1={4} x2={10} y2={20} />
-                                </svg>
+                    <div className="flex items-center">
+                      <div className="w-5 h-5 md:w-6 md:h-6 ">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
                       </div>
                       <p className=" xl:text-base text-base ml-3">Benefits</p>
                     </div>
@@ -234,42 +214,8 @@ export default function Navbar() {
                     className="w-full flex items-center justify-end relative cursor-pointer"
                     onClick={() => setProfile(!profile)}
                   >
-                    {/* {profile && (
-                                            <ul className="p-2 w-40 border-r bg-white absolute rounded left-0 shadow mt-16 top-0 ">
-                                                <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
-                                                    <div className="flex items-center">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-user" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" />
-                                                            <circle cx={12} cy={7} r={4} />
-                                                            <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-                                                        </svg>
-                                                        <span className="ml-2">My Profile</span>
-                                                    </div>
-                                                </li>
-                                                <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex items-center">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-help" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" />
-                                                        <circle cx={12} cy={12} r={9} />
-                                                        <line x1={12} y1={17} x2={12} y2="17.01" />
-                                                        <path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4" />
-                                                    </svg>
-                                                    <span className="ml-2">Help Center</span>
-                                                </li>
-                                                <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-settings" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                        <path stroke="none" d="M0 0h24v24H0z" />
-                                                        <path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                                                        <circle cx={12} cy={12} r={3} />
-                                                    </svg>
-                                                    <span className="ml-2">Account Settings</span>
-                                                </li>
-                                            </ul>
-                                        )} */}
-                    <img
-                      className="rounded h-10 w-10 object-cover"
-                      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-                      alt="logo"
-                    />
+                    
+                    <svg className="rounded h-10 w-10 object-cover" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M512 80c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l448 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM208 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80l-64 0zM376 144c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0z"/></svg>
                     <p className="text-white text-sm ml-2">Contact</p>
                   </div>
                 </div>
@@ -377,23 +323,18 @@ export default function Navbar() {
         </nav>
         {/* Navbar */}
         <nav>
-          <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center bg-gray-800 fixed top-0 z-40">
+          <div className="py-4 px-6 w-full flex xl:hidden justify-between items-center bg-[#021907] fixed top-0 z-40">
             <div className="w-24">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={43}
-                height={44}
-                viewBox="0 0 43 44"
-                fill="none"
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M37.8735 0C36.1688 0 34.7818 1.37956 34.7818 3.0751C34.7818 4.77063 36.1688 6.15019 37.8735 6.15019C39.5782 6.15019 40.9653 4.77063 40.9653 3.0751C40.9653 1.37956 39.5782 0 37.8735 0ZM37.8735 4.61264C37.021 4.61264 36.3277 3.92305 36.3277 3.0751C36.3277 2.22714 37.021 1.53755 37.8735 1.53755C38.7261 1.53755 39.4194 2.22714 39.4194 3.0751C39.4194 3.92305 38.7261 4.61264 37.8735 4.61264ZM26.6663 1.0513C26.1828 1.0513 25.7909 1.44107 25.7909 1.92193C25.7909 2.4028 26.1828 2.79238 26.6663 2.79238C27.1497 2.79238 27.5416 2.40261 27.5416 1.92193C27.5416 1.44107 27.1497 1.0513 26.6663 1.0513ZM43 13.4535C43 13.9342 42.6081 14.324 42.1247 14.324C41.6412 14.324 41.2493 13.9342 41.2493 13.4535C41.2493 12.9727 41.6412 12.5829 42.1247 12.5829C42.6081 12.5829 43 12.9729 43 13.4535ZM18.1654 2.59019L35.1698 12.4044C35.4079 12.5418 35.5548 12.7951 35.5548 13.0692V33.0573C35.5548 33.3273 35.4123 33.5772 35.1803 33.7161L18.1758 43.8901C18.0533 43.9633 17.915 44 17.7774 44C17.6398 44 17.5016 43.9633 17.3789 43.8901L0.374484 33.7161C0.142219 33.5772 0 33.3271 0 33.0573V13.0692C0 12.7951 0.146857 12.5418 0.384919 12.4044L17.3894 2.59019C17.6296 2.45124 17.9254 2.45124 18.1654 2.59019ZM17.7774 4.14388L33.2524 13.0751L23.0207 19.0887L18.5503 16.4735V12.3004C18.5503 11.8758 18.2042 11.5316 17.7774 11.5316C17.3505 11.5316 17.0044 11.8758 17.0044 12.3004V16.4735L11.9752 19.4158C11.7389 19.554 11.5939 19.8057 11.5939 20.0783V25.8047L1.54586 31.7102V13.5118L17.7774 4.14388ZM2.28227 33.0632L17.7774 42.3341L34.0091 32.6225V14.4162L23.961 20.322V26.4081C23.961 26.6807 23.8161 26.9325 23.5798 27.0706L18.5505 30.0125V33.826C18.5505 34.2506 18.2044 34.5948 17.7776 34.5948C17.3507 34.5948 17.0046 34.2506 17.0046 33.826V30.0125L12.2274 27.2182L2.28227 33.0632Z"
-                  fill="#667EEA"
+            <Image
+                  src="/logo.jpg"
+                  width={80}
+                  height={80}
+                  alt="Picture of the author"
                 />
-              </svg>
             </div>
+            <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 flex xl:hidden">
+                  Secure Intelligent
+                </h3>
             <div>
               <div
                 id="menu"
@@ -437,30 +378,22 @@ export default function Navbar() {
               className="bg-gray-800 opacity-50 w-full h-full"
               onClick={() => setShow(!show)}
             />
-            <div className="w-64 z-40 fixed overflow-y-auto z-40 top-0 bg-gray-800 shadow h-full flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out">
+            <div className="w-64 z-40 fixed overflow-y-auto z-40 top-0 bg-[#021907] shadow h-full flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out">
               <div className="px-6 h-full">
                 <div className="flex flex-col justify-between h-full w-full">
                   <div>
                     <div className="mt-6 flex w-full items-center justify-between">
                       <div className="flex items-center justify-between w-full">
                         <div className="flex items-center">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={43}
-                            height={44}
-                            viewBox="0 0 43 44"
-                            fill="none"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M37.8735 0C36.1688 0 34.7818 1.37956 34.7818 3.0751C34.7818 4.77063 36.1688 6.15019 37.8735 6.15019C39.5782 6.15019 40.9653 4.77063 40.9653 3.0751C40.9653 1.37956 39.5782 0 37.8735 0ZM37.8735 4.61264C37.021 4.61264 36.3277 3.92305 36.3277 3.0751C36.3277 2.22714 37.021 1.53755 37.8735 1.53755C38.7261 1.53755 39.4194 2.22714 39.4194 3.0751C39.4194 3.92305 38.7261 4.61264 37.8735 4.61264ZM26.6663 1.0513C26.1828 1.0513 25.7909 1.44107 25.7909 1.92193C25.7909 2.4028 26.1828 2.79238 26.6663 2.79238C27.1497 2.79238 27.5416 2.40261 27.5416 1.92193C27.5416 1.44107 27.1497 1.0513 26.6663 1.0513ZM43 13.4535C43 13.9342 42.6081 14.324 42.1247 14.324C41.6412 14.324 41.2493 13.9342 41.2493 13.4535C41.2493 12.9727 41.6412 12.5829 42.1247 12.5829C42.6081 12.5829 43 12.9729 43 13.4535ZM18.1654 2.59019L35.1698 12.4044C35.4079 12.5418 35.5548 12.7951 35.5548 13.0692V33.0573C35.5548 33.3273 35.4123 33.5772 35.1803 33.7161L18.1758 43.8901C18.0533 43.9633 17.915 44 17.7774 44C17.6398 44 17.5016 43.9633 17.3789 43.8901L0.374484 33.7161C0.142219 33.5772 0 33.3271 0 33.0573V13.0692C0 12.7951 0.146857 12.5418 0.384919 12.4044L17.3894 2.59019C17.6296 2.45124 17.9254 2.45124 18.1654 2.59019ZM17.7774 4.14388L33.2524 13.0751L23.0207 19.0887L18.5503 16.4735V12.3004C18.5503 11.8758 18.2042 11.5316 17.7774 11.5316C17.3505 11.5316 17.0044 11.8758 17.0044 12.3004V16.4735L11.9752 19.4158C11.7389 19.554 11.5939 19.8057 11.5939 20.0783V25.8047L1.54586 31.7102V13.5118L17.7774 4.14388ZM2.28227 33.0632L17.7774 42.3341L34.0091 32.6225V14.4162L23.961 20.322V26.4081C23.961 26.6807 23.8161 26.9325 23.5798 27.0706L18.5505 30.0125V33.826C18.5505 34.2506 18.2044 34.5948 17.7776 34.5948C17.3507 34.5948 17.0046 34.2506 17.0046 33.826V30.0125L12.2274 27.2182L2.28227 33.0632Z"
-                              fill="#667EEA"
-                            />
-                          </svg>
-                          <p className="text-base  text-white ml-3">
-                            Secure AI and Blockchain
-                          </p>
+                        <Image
+                  src="/logo.jpg"
+                  width={80}
+                  height={80}
+                  alt="Picture of the author"
+                />
+                          {/* <p className="text-base  text-white ml-3">
+                            Secure Intelligent
+                          </p> */}
                         </div>
                         <div
                           id="cross"
@@ -529,9 +462,7 @@ export default function Navbar() {
                                 />
                               </svg>
                             </div>
-                            <p className="xl:text-base text-base ml-3">
-                              Home
-                            </p>
+                            <p className="xl:text-base text-base ml-3">Home</p>
                           </div>
                         </li>
                       </Link>
@@ -599,22 +530,9 @@ export default function Navbar() {
                         >
                           <div className="flex items-center justify-between">
                             <div className="flex items-center">
-                              <div className="w-6 h-6 md:w-8 md:h-8 text-white">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  className="icon icon-tabler icon-tabler-code"
-                                  viewBox="0 0 24 24"
-                                  strokeWidth="1.5"
-                                  stroke="currentColor"
-                                  fill="none"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                >
-                                  <path stroke="none" d="M0 0h24v24H0z" />
-                                  <polyline points="7 8 3 12 7 16" />
-                                  <polyline points="17 8 21 12 17 16" />
-                                  <line x1={14} y1={4} x2={10} y2={20} />
-                                </svg>
+                              <div className="w-4 h-4 md:w-8 md:h-8 text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 448 512"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288l111.5 0L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7l-111.5 0L349.4 44.6z"/></svg>
+                                
                               </div>
                               <p className="text-white xl:text-base  text-base ml-3">
                                 Technology
@@ -661,24 +579,11 @@ export default function Navbar() {
                         >
                           <div className="flex items-center justify-between">
                             <div className="flex items-center">
-                              <div className="w-6 h-6 md:w-8 md:h-8 text-white">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  className="icon icon-tabler icon-tabler-code"
-                                  viewBox="0 0 24 24"
-                                  strokeWidth="1.5"
-                                  stroke="currentColor"
-                                  fill="none"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                >
-                                  <path stroke="none" d="M0 0h24v24H0z" />
-                                  <polyline points="7 8 3 12 7 16" />
-                                  <polyline points="17 8 21 12 17 16" />
-                                  <line x1={14} y1={4} x2={10} y2={20} />
-                                </svg>
+                              <div className="w-4 h-4 md:w-6 md:h-6 text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                
                               </div>
-                              <p className="text-white xl:text-base  text-base ml-3">
+                              <p className="text-white xl:text-base  text-base ml-4">
                                 Benefits
                               </p>
                             </div>
@@ -688,46 +593,16 @@ export default function Navbar() {
                     </ul>
                   </div>
                   <div className="w-full pt-4">
-                    <div className="flex justify-center mb-4 w-full">
-                      <div className="relative w-full">
-                        <div className="text-gray-500 absolute ml-4 inset-0 m-auto w-4 h-4">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="icon icon-tabler icon-tabler-search"
-                            width={16}
-                            height={16}
-                            viewBox="0 0 24 24"
-                            strokeWidth={1}
-                            stroke="#A0AEC0"
-                            fill="none"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <path stroke="none" d="M0 0h24v24H0z" />
-                            <circle cx={10} cy={10} r={7} />
-                            <line x1={21} y1={21} x2={15} y2={15} />
-                          </svg>
-                        </div>
-                        <input
-                          className="bg-gray-100 focus:outline-none rounded w-full text-sm text-gray-500 bg-gray-700 pl-10 py-2"
-                          type="text"
-                          placeholder="Search"
-                        />
-                      </div>
-                    </div>
+                    
                     <div className="border-t border-gray-700">
                       <div className="w-full flex items-center justify-between pt-1">
-                        <div className="flex items-center">
-                          <img
-                            alt="profile-pic"
-                            src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-                            className="w-8 h-8 rounded-md"
-                          />
+                        <div className="flex items-center py-4">
+                    <svg className="rounded h-10 w-10 object-cover" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M512 80c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l448 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM208 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80l-64 0zM376 144c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0z"/></svg>
+                          
                           <p className=" text-white text-base leading-4 ml-2">
                             Contact us
                           </p>
                         </div>
-                        
                       </div>
                     </div>
                   </div>
