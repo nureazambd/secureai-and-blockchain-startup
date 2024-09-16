@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Problem() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="flex min-h-screen flex-col items-center justify-between lg:p-24">
       <div className="pb-16" style={{ fontFamily: '"Lato", sans-serif' }}>
         {/* Code block starts */}
 
@@ -29,12 +29,7 @@ export default function Problem() {
               >
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG1.svg"
-                      alt="drawer"
-                    />
-                  </div>
+                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3"></div>
                 </div>
                 <div className="w-10/12">
                   <h2
@@ -62,12 +57,7 @@ export default function Problem() {
               >
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG2.svg"
-                      alt="check"
-                    />
-                  </div>
+                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3"></div>
                 </div>
                 <div className="w-10/12">
                   <h2
@@ -95,12 +85,7 @@ export default function Problem() {
               >
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG3.svg"
-                      alt="html tag"
-                    />
-                  </div>
+                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3"></div>
                 </div>
                 <div className="w-10/12">
                   <h2
@@ -121,18 +106,6 @@ export default function Problem() {
                   </p>
                 </div>
               </div>
-              {/* <div tabIndex={0} aria-label="card 4" className="focus:outline-none flex sm:w-full md:w-5/12 pb-20">
-                <div className="w-20 h-20 relative mr-5">
-                  <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg" alt="monitor" />
-                  </div>
-                </div>
-                <div className="w-10/12">
-                  <h2 tabIndex={0} className="focus:outline-none text-lg font-semibold leading-tight text-gray-800">The Last UI kit you’ll ever need</h2>
-                  <p tabIndex={0} className="focus:outline-none text-base text-gray-600 leading-normal pt-2">We have chosen the bright color palettes that arouse the only positive emotions. The kit that simply assures to be loved by everyone.</p>
-                </div>
-              </div> */}
             </div>
           </div>
         </section>

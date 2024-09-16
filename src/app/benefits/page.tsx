@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Benefits() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="flex min-h-screen flex-col items-center justify-between lg:p-24">
       <div className="pb-16" style={{ fontFamily: '"Lato", sans-serif' }}>
         {/* Code block starts */}
         <section className="max-w-8xl mx-auto container bg-white pt-16">
@@ -26,10 +26,7 @@ export default function Benefits() {
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG1.svg"
-                      alt="drawer"
-                    />
+                    
                   </div>
                 </div>
                 <div className="w-10/12">
@@ -56,10 +53,7 @@ export default function Benefits() {
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG2.svg"
-                      alt="check"
-                    />
+                    
                   </div>
                 </div>
                 <div className="w-10/12">
@@ -85,10 +79,7 @@ export default function Benefits() {
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG3.svg"
-                      alt="html tag"
-                    />
+                    
                   </div>
                 </div>
                 <div className="w-10/12">
@@ -113,10 +104,7 @@ export default function Benefits() {
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg"
-                      alt="monitor"
-                    />
+                    
                   </div>
                 </div>
                 <div className="w-10/12">
@@ -137,6 +125,20 @@ export default function Benefits() {
             </div>
           </div>
         </section>
+
+        <section className="text-gray-600 body-font">
+  <div className="container px-5 py-10 mx-auto">
+    <div className="flex flex-col text-center w-full mb-20">
+      <h1 className="sm:text-3xl text-2xl font-extrabold title-font mb-4 text-gray-900">Conclusion</h1>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Our AI and blockchain startup aims to revolutionize the way AI applications are developed and
+deployed by prioritizing security, privacy, and decentralization. By integrating cutting-edge
+technologies and innovative solutions, we are committed to building a platform that empowers
+users to harness the full potential of AI while ensuring their data remains secure and private. We
+invite investors, partners, and users to join us in this exciting journey towards a secure and
+decentralized AI future.</p>
+    </div>
+  </div>
+</section>
       </div>
     </div>
   );

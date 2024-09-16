@@ -127,7 +127,7 @@ technologies to provide robust, decentralized solutions.</p>
                             </div>
                             <div className="">
                                 <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Team</p>
-                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">coming soon...</p>
                             </div>
                         </div>
 
@@ -143,7 +143,7 @@ technologies to provide robust, decentralized solutions.</p>
                             </div>
                             <div className="">
                                 <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Board</p>
-                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">coming soon...</p>
                             </div>
                         </div>
 
@@ -157,7 +157,7 @@ technologies to provide robust, decentralized solutions.</p>
                             </div>
                             <div className="">
                                 <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800">Press</p>
-                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="mt-2 font-normal text-base leading-6 text-gray-600">coming soon...</p>
                             </div>
                         </div>
                     </div>
