@@ -527,7 +527,7 @@ export default function Navbar() {
                           <li className="cursor-pointer h-full flex items-center hover:text-gray-400 text-lg text-white mr-10 tracking-normal hover:border-b-2 active:border-white"
                           onClick={() => setShow(!show)}
                           >
-                            <div className="flex items-center">
+                            <div className="flex items-center mt-4">
                               <div className="w-6 h-6 md:w-8 md:h-8 ">
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
