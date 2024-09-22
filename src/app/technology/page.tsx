@@ -42,11 +42,7 @@ export default function Technology() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    We will leverage top decentralized cloud storage solutions
-                    such as Storj, Sia, and Filecoin to ensure secure and
-                    distributed data storage. These technologies provide
-                    end-to-end encryption and redundancy, enhancing data
-                    security and availability.
+                    We will leverage leading decentralized cloud storage solutions such as Storj, Sia, and Filecoin to ensure secure and distributed data storage. These technologies provide end-to-end encryption and redundancy, enhancing data security, privacy, and availability.
                   </p>
                 </div>
               </div>
@@ -64,16 +60,13 @@ export default function Technology() {
                     tabIndex={0}
                     className="focus:outline-none text-lg font-semibold leading-tight text-gray-800"
                   >
-                    Large Language Models (LLMs)
+                    Large Language Models (LLMs): Hura
                   </h2>
                   <p
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Our platform will utilize cutting-edge LLMs to power
-                    generative AI applications. These models will be trained on
-                    decentralized data to ensure privacy and security while
-                    delivering high performance and accuracy.
+                    Our platform will utilize Hura, an advanced decentralized LLM designed to power generative AI applications and the AI chatbot. Hura will be trained on decentralized data to ensure privacy and security while delivering high performance and accuracy.
                   </p>
                 </div>
               </div>
@@ -97,10 +90,7 @@ export default function Technology() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Blockchain will be at the core of our platform, ensuring
-                    transparency, security, and immutability of data
-                    transactions. Smart contracts will be used to automate
-                    processes and enforce security policies.
+                    Blockchain will be the foundation of our platform, ensuring transparency, security, and immutability of data transactions. Smart contracts will be deployed to automate processes, enforce security policies, and ensure transparent interactions on the platform.
                   </p>
                 </div>
               </div>
@@ -118,17 +108,13 @@ export default function Technology() {
                     tabIndex={0}
                     className="focus:outline-none text-lg font-semibold leading-tight text-gray-800"
                   >
-                    Native Cryptocurrency
+                    Native Cryptocurrency: HalalCoin
                   </h2>
                   <p
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Our native cryptocurrency will be built on a secure
-                    blockchain protocol, enabling fast and secure transactions
-                    within the platform. It will also serve as a means of
-                    incentivizing network participants and rewarding
-                    contributions.
+                    HalalCoin will be built on a secure blockchain protocol, enabling fast and secure transactions within the platform. It will serve as a means of incentivizing network participants, rewarding contributions, and ensuring transparent, certified transactions.
                   </p>
                 </div>
               </div>
