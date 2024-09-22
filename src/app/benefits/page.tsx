@@ -38,10 +38,7 @@ export default function Benefits() {
                   <p
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Our platforms decentralized architecture and robust
-                    security measures will provide users with unparalleled data
-                    security and privacy, mitigating the risks associated with
-                    centralized storage solutions.
+                    Secure Intelligents decentralized architecture and robust security measures will provide users with unparalleled data security and privacy, mitigating the risks associated with centralized storage solutions.
                     <br />
                   </p>
                 </div>
@@ -65,10 +62,7 @@ export default function Benefits() {
                   <p
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    By giving users control over their data and integrating
-                    user-friendly AI tools, we empower individuals and
-                    businesses to leverage AI technologies without compromising
-                    on security.
+                    By giving users control over their data and integrating user-friendly AI tools, including the decentralized AI chatbot Hura, we empower individuals and businesses to leverage AI technologies without compromising on security.
                   </p>
                 </div>
               </div>
@@ -91,9 +85,7 @@ export default function Benefits() {
                   <p
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Decentralized storage and blockchain technologies can reduce
-                    costs associated with data management and security, offering
-                    a cost-effective solution for AI applications.
+                    Decentralized storage and blockchain technologies can reduce costs associated with data management and security, offering a cost-effective solution for AI applications.
                   </p>
                 </div>
               </div>
@@ -116,9 +108,7 @@ export default function Benefits() {
                   <p
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Our unique combination of AI and blockchain technologies
-                    will position our startup as a leader in the secure AI
-                    solutions market, attracting customers and investors.
+                    Our unique combination of decentralized AI (Hura) and blockchain technologies positions Secure Intelligent as a leader in the secure AI solutions market, attracting customers and investors.
                   </p>
                 </div>
               </div>
@@ -130,15 +120,58 @@ export default function Benefits() {
   <div className="container px-5 py-10 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
       <h1 className="sm:text-3xl text-2xl font-extrabold title-font mb-4 text-gray-900">Conclusion</h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Our AI and blockchain startup aims to revolutionize the way AI applications are developed and
-deployed by prioritizing security, privacy, and decentralization. By integrating cutting-edge
-technologies and innovative solutions, we are committed to building a platform that empowers
-users to harness the full potential of AI while ensuring their data remains secure and private. We
-invite investors, partners, and users to join us in this exciting journey towards a secure and
-decentralized AI future.</p>
+      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Secure Intelligent is set to revolutionize AI application development and deployment by emphasizing security, privacy, and decentralization. By integrating cutting-edge technologies like the Hura LLM, decentralized AI chatbot, decentralized cloud storage, and HalalCoin, we are committed to building a platform that empowers users to harness the full potential of AI while ensuring their data remains secure and private. We invite investors, partners, and users to join us on this exciting journey toward a secure, decentralized AI future.</p>
     </div>
   </div>
 </section>
+
+
+
+
+
+<section className="text-gray-600 body-font">
+  <div className="container px-5 py-10 mx-auto">
+    <div className="flex flex-col text-left w-full mb-20">
+      <h1 className="sm:text-3xl text-2xl font-extrabold mx-auto title-font mb-4 text-gray-900">References</h1>
+      <p className=" mx-auto leading-relaxed text-base">
+      ●	Storj<br/>
+●	Sia<br/>
+●	Filecoin<br/>
+●	Arweave<br/>
+●	MaidSafe<br/>
+●	BitTorrent File System (BTFS)<br/>
+●	Bluzelle<br/>
+●	Crust Network<br/>
+
+      </p>
+    </div>
+  </div>
+</section>
+
+<section className="text-gray-600 body-font">
+  <div className="container px-5 py-10 mx-auto">
+    <div className="flex flex-col text-left w-full mb-20">
+      <h1 className="sm:text-3xl text-2xl font-extrabold mx-auto title-font mb-4 text-gray-900">Appendices</h1>
+      <h1 className="sm:text-lg text-lg font-normal mx-auto title-font mb-4 text-gray-900">Appendix A: Glossary</h1>
+      
+      <p className=" mx-auto leading-relaxed text-base">
+      ●	AI (Artificial Intelligence): The simulation of human intelligence processes by machines, especially computer systems.<br/>
+●	Blockchain: A decentralized, distributed ledger technology that records transactions across many computers securely and transparently.<br/>
+●	LLM (Large Language Model): A type of AI model trained on vast amounts of text data to understand and generate human-like language.<br/>
+●	Decentralized Cloud Storage: A storage solution that distributes data across a network of nodes, ensuring security, redundancy, and privacy.<br/>
+●	Native Cryptocurrency: A digital currency specifically designed to be used within a particular platform or ecosystem.<br/>
+
+
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
       </div>
     </div>
   );
