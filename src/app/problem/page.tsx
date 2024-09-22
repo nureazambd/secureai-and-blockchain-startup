@@ -42,7 +42,12 @@ export default function Problem() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    As AI systems become more ubiquitous, concerns regarding data security and privacy have increased. Centralized storage solutions are highly vulnerable to data breaches, which can expose sensitive user information to unauthorized access. Users need a decentralized platform that ensures their data is secure and private at all times.
+                    As AI systems become more ubiquitous, concerns regarding
+                    data security and privacy have increased. Centralized
+                    storage solutions are highly vulnerable to data breaches,
+                    which can expose sensitive user information to unauthorized
+                    access. Users need a decentralized platform that ensures
+                    their data is secure and private at all times.
                   </p>
                 </div>
               </div>
@@ -66,7 +71,12 @@ export default function Problem() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Traditional AI models rely on centralized data management, leading to single points of failure and limited user control over their data. This centralized approach increases risks and reduces the efficiency of data utilization and management, leading to inefficiencies and potential security threats.
+                    Traditional AI models rely on centralized data management,
+                    leading to single points of failure and limited user control
+                    over their data. This centralized approach increases risks
+                    and reduces the efficiency of data utilization and
+                    management, leading to inefficiencies and potential security
+                    threats.
                   </p>
                 </div>
               </div>
@@ -90,7 +100,13 @@ export default function Problem() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Despite the enormous potential of AI, the lack of secure, decentralized solutions discourages many businesses and individuals from fully adopting AI technologies. There is a critical need for an innovative platform that integrates high-level security measures into AI development and deployment, ensuring a trustable, decentralized infrastructure.
+                    Despite the enormous potential of AI, the lack of secure,
+                    decentralized solutions discourages many businesses and
+                    individuals from fully adopting AI technologies. There is a
+                    critical need for an innovative platform that integrates
+                    high-level security measures into AI development and
+                    deployment, ensuring a trustable, decentralized
+                    infrastructure.
                   </p>
                 </div>
               </div>

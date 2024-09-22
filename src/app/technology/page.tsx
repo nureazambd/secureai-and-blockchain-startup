@@ -42,7 +42,11 @@ export default function Technology() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    We will leverage leading decentralized cloud storage solutions such as Storj, Sia, and Filecoin to ensure secure and distributed data storage. These technologies provide end-to-end encryption and redundancy, enhancing data security, privacy, and availability.
+                    We will leverage leading decentralized cloud storage
+                    solutions such as Storj, Sia, and Filecoin to ensure secure
+                    and distributed data storage. These technologies provide
+                    end-to-end encryption and redundancy, enhancing data
+                    security, privacy, and availability.
                   </p>
                 </div>
               </div>
@@ -66,7 +70,11 @@ export default function Technology() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Our platform will utilize Hura, an advanced decentralized LLM designed to power generative AI applications and the AI chatbot. Hura will be trained on decentralized data to ensure privacy and security while delivering high performance and accuracy.
+                    Our platform will utilize Hura, an advanced decentralized
+                    LLM designed to power generative AI applications and the AI
+                    chatbot. Hura will be trained on decentralized data to
+                    ensure privacy and security while delivering high
+                    performance and accuracy.
                   </p>
                 </div>
               </div>
@@ -90,7 +98,11 @@ export default function Technology() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    Blockchain will be the foundation of our platform, ensuring transparency, security, and immutability of data transactions. Smart contracts will be deployed to automate processes, enforce security policies, and ensure transparent interactions on the platform.
+                    Blockchain will be the foundation of our platform, ensuring
+                    transparency, security, and immutability of data
+                    transactions. Smart contracts will be deployed to automate
+                    processes, enforce security policies, and ensure transparent
+                    interactions on the platform.
                   </p>
                 </div>
               </div>
@@ -114,7 +126,11 @@ export default function Technology() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    HalalCoin will be built on a secure blockchain protocol, enabling fast and secure transactions within the platform. It will serve as a means of incentivizing network participants, rewarding contributions, and ensuring transparent, certified transactions.
+                    HalalCoin will be built on a secure blockchain protocol,
+                    enabling fast and secure transactions within the platform.
+                    It will serve as a means of incentivizing network
+                    participants, rewarding contributions, and ensuring
+                    transparent, certified transactions.
                   </p>
                 </div>
               </div>
