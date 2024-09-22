@@ -28,9 +28,7 @@ export default function Implementation() {
               >
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    
-                  </div>
+                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3"></div>
                 </div>
                 <div className="w-10/12">
                   <h2
@@ -44,9 +42,10 @@ export default function Implementation() {
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
                     ● Conduct comprehensive research on decentralized cloud
-                    storage and blockchain technologies. <br />
-                    ● Develop initial prototypes of AI models and generative AI
-                    tools.
+                    storage and blockchain technologies.
+                    <br />
+                    ● Develop initial prototypes of the Hura LLM, decentralized
+                    AI chatbot, and generative AI tools.
                     <br />
                     ● Establish partnerships with leading decentralized storage
                     providers.
@@ -61,9 +60,7 @@ export default function Implementation() {
               >
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    
-                  </div>
+                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3"></div>
                 </div>
                 <div className="w-10/12">
                   <h2
@@ -76,13 +73,14 @@ export default function Implementation() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    ● Build the decentralized AI platform, integrating cloud
-                    storage, LLMs, and blockchain.
+                    ● Conduct comprehensive research on decentralized cloud
+                    storage and blockchain technologies.
                     <br />
-                    ● Develop the native cryptocurrency and establish its use
-                    cases within the platform.
+                    ● Develop initial prototypes of the Hura LLM, decentralized
+                    AI chatbot, and generative AI tools.
                     <br />
-                    ● Implement security measures and conduct thorough testing.
+                    ● Establish partnerships with leading decentralized storage
+                    providers.
                     <br />
                   </p>
                 </div>
@@ -94,9 +92,7 @@ export default function Implementation() {
               >
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    
-                  </div>
+                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3"></div>
                 </div>
                 <div className="w-10/12">
                   <h2
@@ -109,8 +105,8 @@ export default function Implementation() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    ● Launch a beta version of the platform to a select group of
-                    users.
+                    ● Launch a beta version of the platform, including the AI
+                    chatbot Hura, to a select group of users.
                     <br />
                     ● Collect feedback and make necessary improvements.
                     <br />
@@ -127,9 +123,7 @@ export default function Implementation() {
               >
                 <div className="w-20 h-20 relative mr-5">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                    
-                  </div>
+                  <div className="absolute text-white bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3"></div>
                 </div>
                 <div className="w-10/12">
                   <h2
@@ -142,7 +136,8 @@ export default function Implementation() {
                     tabIndex={0}
                     className="focus:outline-none text-base text-gray-600 leading-normal pt-2"
                   >
-                    ● Launch the platform to the public.
+                    ● Launch the platform to the public, including all AI
+                    services such as Hura.
                     <br />
                     ● Implement marketing and outreach strategies to attract
                     users and partners.
