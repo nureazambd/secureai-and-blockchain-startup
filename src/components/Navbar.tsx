@@ -24,7 +24,7 @@ export default function Navbar() {
       placeholder="blur" // Optional blur-up while loading
     />
                 <h3 className="text-base text-white font-bold tracking-normal leading-tight ml-3 hidden lg:block">
-                Secure Intelligent AI and Blockchain 
+                Secure Intelligent (AI and Blockchain) 
                 </h3>
               </div>
               <ul className="pr-12 xl:flex items-center h-full hidden">

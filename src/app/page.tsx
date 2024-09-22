@@ -14,7 +14,7 @@ export default function Home() {
 
                     <div className="absolute z-10 top-0 left-0 mx-4 sm:mx-0 mt-36 sm:mt-0 sm:py-20 md:py-28 lg:py-20 xl:py-28 sm:pl-14 flex flex-col sm:justify-start items-start">
                         <h1 className="text-xl sm:text-2xl lg:text-4xl xl:text-6xl font-semibold text-gray-800 sm:w-8/12">Secure Intelligent AI and Blockchain Startup</h1>
-                        <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12">This white paper presents the vision, strategy, and technological foundation of Secure Intelligent, our AI and blockchain startup dedicated to delivering highly secure, decentralized AI-driven solutions.</p>
+                        <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12">This white paper presents the vision, strategy, and technological foundation of "Secure Intelligent," our AI and blockchain startup dedicated to delivering highly secure, decentralized AI-driven solutions. </p>
                         {/* <button className="hidden sm:flex bg-gray-800 py-4 px-8 text-base font-medium text-white mt-8 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
                     </div>
                     {/* <button className="absolute bottom-0 sm:hidden dark:bg-white dark:text-gray-800 bg-gray-800 py-4 text-base font-medium text-white mt-8 flex justify-center items-center w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
@@ -26,12 +26,8 @@ export default function Home() {
             <p className="font-normal text-sm leading-3 text-indigo-700 hover:text-indigo-800 cursor-pointer pb-2">About</p>
             <div className="flex lg:flex-row flex-col lg:gap-8 sm:gap-10 gap-12">
                 <div className="w-full lg:w-6/12">
-                    <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 text-gray-800 leading-9">We are here to make great design accessible and delightfull for everyone</h2>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">Our company aims to leverage
-decentralized cloud storage, large language models (LLMs), and native cryptocurrency to build
-a secure and innovative platform for AI applications. Key features include secure AI project
-development, decentralized data management, generative AI for social media automation and
-image editing, and ensuring complete data security for all users.</p>
+                    <h2 className="w-full font-bold lg:text-4xl text-3xl lg:leading-10 text-gray-800 leading-9">Our mission is to utilize decentralized cloud storage, advanced Large Language Models (LLMs) named <samp className=" text-orange-500">Hura</samp>, and a native cryptocurrency, <span className=" text-orange-500">HalalCoin</span></h2>
+                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">to create an innovative platform for AI applications. Key features include secure AI project development, decentralized data management, generative AI for social media automation, a decentralized AI chatbot, and image editing, all while ensuring complete data security for all users. Our approach ensures transparency, certification, and privacy across all interactions on the platform.</p>
                 </div>
                 <div className="w-full lg:w-6/12">
                     <img className="lg:block hidden w-full" src="https://i.ibb.co/RjNH7QB/Rectangle-122-1.png" alt="people discussing on board" />
@@ -72,13 +68,11 @@ image editing, and ensuring complete data security for all users.</p>
             <div className="grid sm:grid-cols-3 grid-cols-2 sm:gap-8 gap-4">
                 <div>
                     <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Vision</p>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">Our vision is to create a secure, decentralized AI platform that empowers users to harness the
-                    full potential of AI while ensuring their data remains private and protected.</p>
+                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">Our vision is to build a world where AI technologies are secure, decentralized, and transparent, enabling users to harness the full potential of AI while maintaining complete control and privacy over their data.</p>
                 </div>
                 <div>
                     <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">Mission</p>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">Our mission is to develop AI projects with high-level security, utilizing decentralized cloud
-                    storage and blockchain technology to guarantee data integrity and privacy for all users</p>
+                    <p className="font-normal text-base leading-6 text-gray-600 mt-6">Our mission is to create a completely decentralized and secure AI system using advanced technologies, such as the "Hura" LLM and blockchain, combined with a transparent and certified native cryptocurrency, "HalalCoin." We are committed to offering secure AI project development, data management, and a platform that guarantees data integrity, privacy, and transparency for all users.</p>
                 </div>
                 <div className="sm:block hidden">
                     <p className="font-semibold lg:text-2xl text-xl lg:leading-6 leading-5 text-gray-800 mt-6">User</p>
@@ -107,12 +101,8 @@ image editing, and ensuring complete data security for all users.</p>
             <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
                 <div className="w-full lg:w-6/12">
                     <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Introduction</h2>
-                    <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">The rapid advancement of AI and blockchain technologies has opened new opportunities for
-innovation and transformation across various industries. However, with these advancements
-come significant challenges, particularly around data security and privacy. </p>
-                    <p className="font-normal text-base leading-6 text-gray-600 w-full lg:w-10/12 xl:w-9/12 mt-10">Our startup aims to
-address these challenges by creating a secure platform that integrates AI and blockchain
-technologies to provide robust, decentralized solutions.</p>
+                    <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">The rapid evolution of AI and blockchain technologies has created unprecedented opportunities for innovation across multiple sectors. However, these advancements also present significant challenges, especially in terms of data security, privacy, and centralized control. "Secure Intelligent" aims to tackle these issues by developing a decentralized AI platform that integrates cutting-edge technologies to provide secure, scalable, and efficient solutions. </p>
+                    <p className="font-normal text-base leading-6 text-gray-600 w-full lg:w-10/12 xl:w-9/12 mt-10">Our platform is designed to ensure that all data interactions are transparent, fully decentralized, and securely managed, reflecting the core principles of trust and user empowerment.</p>
                 </div>
                 <div className="w-full lg:w-6/12">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
